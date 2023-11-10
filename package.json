@@ -1,0 +1,19 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Creando un sistema de login",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enzoolionel/login.git"
+  },
+  "author": "@_enzoolionel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enzoolionel/login/issues"
+  },
+  "homepage": "https://github.com/Enzoolionel/login#readme"
+}
