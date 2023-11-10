@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Creando un sistema de login",
   "main": "app.js",
+  "type": "module",
   "scripts": {
+    "start": "node ./back/server.js & node ./front/app.js",
+    "dev:back": "nodemon ./back/server.js",
+    "dev:front": "nodemon ./front/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Enzoolionel/login/issues"
   },
-  "homepage": "https://github.com/Enzoolionel/login#readme"
+  "homepage": "https://github.com/Enzoolionel/login#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
