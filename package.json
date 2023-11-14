@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node ./back/server.js & node ./front/app.js",
+    "start": "node ./back/server.js & cd front && npm run start",
     "dev:back": "nodemon ./back/server.js",
-    "dev:front": "nodemon ./front/app.js",
+    "dev:front": "cd front && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
